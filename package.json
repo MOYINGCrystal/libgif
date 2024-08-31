@@ -27,7 +27,7 @@
     "typescript": "^5.4.4",
     "vite": "^5.4.2"
   },
-  "description": "refactor from libgif",
+  "description": "fork from @zaqmjuop/libgif",
   "directories": {
     "lib": "lib"
   },
@@ -35,8 +35,8 @@
     "gif"
   ],
   "repository": {
-    "type": "git",
-    "url": ""
+    "type": "github",
+    "url": "https://github.com/MOYINGCrystal/libgif"
   },
   "homepage": "",
   "license": "MIT"
