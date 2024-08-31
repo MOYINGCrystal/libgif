@@ -12,10 +12,10 @@ const download = async (url: string) => {
       h.overrideMimeType('text/plain; charset=x-user-defined')
     } else if ('responseType' in h) {
       // old browsers (XMLHttpRequest-compliant)
-      h.responseType = 'arraybuffer'
+      (h as XMLHttpRequest).responseType = 'arraybuffer'
     } else {
       // IE9 (Microsoft.XMLHTTP-compliant)
-      h.setRequestHeader('Accept-Charset', 'x-user-defined')
+      (h as XMLHttpRequest).setRequestHeader('Accept-Charset', 'x-user-defined')
     }
 
     h.onloadstart = () => {}

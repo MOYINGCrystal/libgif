@@ -1,8 +1,4 @@
 import coug3 from '@/assets/coug3.gif'
-import 宏凯冲击 from '@/assets/宏凯冲击.webp'
-import 克利奥帕特拉 from '@/assets/克利奥帕特拉.webp'
-import 樱花崩坏 from '@/assets/樱花崩坏.webp'
-import catgirl from '@/assets/catgirl.png'
 import garena from '@/assets/garena.png'
 import parallels_cpu from '@/assets/parallels-cpu.png'
 import smoke from '@/assets/smoke.png'
@@ -24,6 +20,5 @@ export const IMGS = [
   'http://cdn.xyxiao.cn/Portrait_2.jpg'
 ]
 export const GIFS = [coug3, earth, gif1, gif2, gif3, img5]
-export const PNGS = [catgirl, garena, parallels_cpu, smoke, tech]
-export const WEBPS = [宏凯冲击, 克利奥帕特拉, 樱花崩坏]
+export const PNGS = [garena, parallels_cpu, smoke, tech]
 export const CHECKINDEX = 0

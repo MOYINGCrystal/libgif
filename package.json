@@ -1,11 +1,12 @@
 {
   "name": "@endcrystal/libgif",
+  "type": "module",
   "version": "0.4.1",
   "author": "",
   "files": [
     "dist"
   ],
-  "main": "./dist/libgif.mjs",
+  "main": "./dist/libgif.js",
   "typings": "./dist/libgif.d.ts",
   "exports": {
     ".": {
@@ -14,7 +15,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build && tsc lib/libgif.ts --declaration --emitDeclarationOnly --declarationDir dist -t ES2020 --moduleResolution node --module ES2020",
+    "build": "vite build && tsc lib/libgif.ts --declaration --emitDeclarationOnly --declarationDir dist -t ESNext --moduleResolution Bundler --module ESNext",
     "serve": "vite preview",
     "publish": "npm publish"
   },
@@ -22,9 +23,9 @@
     "mitt": "^3.0.0"
   },
   "devDependencies": {
-    "@types/node": "^18.0.0",
-    "typescript": "^4.4.3",
-    "vite": "^3.1.1"
+    "@types/node": "^22.0.0",
+    "typescript": "^5.4.4",
+    "vite": "^5.4.2"
   },
   "description": "refactor from libgif",
   "directories": {
